@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Flor's Canteen</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="./css/LOGO(2).png" alt="Flor's Canteen Logo" class="nav-logo">
+            <span class="brand-name">Flor's Canteen</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="MenuGeneralView.html">Menu</a>
+            <a href="Order.html">Order</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="ContactUs.html">Contact Us</a>
+        </div>
+
+        <div class="nav-actions">
+            <a href="login.html" class="login-btn">Sign-In/Sign-Up</a>
+            <button id="search-btn" class="icon-btn" aria-label="Search">
+                <img src="./picture/magnifying-glass.png" alt="Search" class="btn-icon-img">
+            </button>
+
+            <button id="theme-switch" class="icon-btn theme-toggle" aria-label="Toggle Theme">
+                <img src="./picture/moon.png" alt="Toggle Theme" class="btn-icon-img">
+            </button>
+        </div>
+    </nav>
+
+    <div class="full-video-container">
+        <video src="./css/HOME(BG).mp4" class="ad-video" autoplay muted playsinline loop></video>
+        <div class="ad-overlay">
+            <h1>Flor's Canteen</h1>
+            <h3>Canteen that serves favorites since 2000</h3>
+        </div>
+    </div>
+
+    <section id="menu" class="menu-section">
+        <h2>Popular Dishes</h2>
+        <div class="food-grid">
+            <div class="food-card">
+                <div class="card-img-placeholder">
+                    <img src="https://i0.wp.com/thecookingpinay.com/wp-content/uploads/2018/07/Nilagang-Baboy-Pork-Stew-_thecookingpinay.jpg?fit=1200%2C900&ssl=1"
+                        alt="Nilagang Ribs Baboy" class="food-image">
+
+                </div>
+                <div class="card-body">
+                    <h3>Nilagang Ribs Baboy</h3>
+                    <p class="description">Simple, clean, and comforting. Tender pork ribs and fresh vegetables in a
+                        clear, hot broth.</p>
+                    <div class="rating">⭐⭐⭐⭐⭐ <span>(4.0)</span></div>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <div class="card-img-placeholder">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqBe5o--7cL9QKfKmsbpbfEvdUtpv2Gf2Z6Q&s"
+                        alt="Afritada" class="food-image">
+
+                </div>
+                <div class="card-body">
+                    <h3>Afritada</h3>
+                    <p class="description">Hearty pork stew with potatoes and carrots, simmered in a thick tomato sauce
+                        that tastes like home.</p>
+                    <div class="rating">⭐⭐⭐⭐⭐ <span>(4.4)</span></div>
+                </div>
+            </div>
+            <div class="food-card">
+                <div class="card-img-placeholder">
+                    <img src="https://cdn.sanity.io/images/f3knbc2s/production/120be357fc8541587d05dcfcfa347e1942684287-2500x1500.jpg?auto=format"
+                        alt="Dinuguan" class="food-image">
+                </div>
+                <div class="card-body">
+                    <h3>Chicken Curry</h3>
+                    <p class="description">A colorful and aromatic dish. Tender chicken and vegetables slow-cooked in a
+                        mild, golden curry sauce.</p>
+                    <div class="rating">⭐⭐⭐⭐⭐ <span>(4.4)</span></div>
+                </div>
+            </div>
+            <div class="food-card">
+                <div class="card-img-placeholder">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzoKlmfpKtn04Sf6CDQYEHWj-cT2tiiYjiUg&s"
+                        alt="Sisig" class="food-image">
+
+                </div>
+                <div class="card-body">
+                    <h3>Sisig</h3>
+                    <p class="description">The king of Filipino pulutan-turned-ulam. Chopped to perfection, savory, and
+                        with just the right amount of crunch.</p>
+                    <div class="rating">⭐⭐⭐⭐⭐<span>(4.8)</span></div>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <div class="card-img-placeholder">
+                    <img src="https://www.angsarap.net/wp-content/uploads/2023/11/Tinutungang-Dinuguan-Wide.jpg"
+                        alt="Dinuguan" class="food-image">
+                </div>
+                <div class="card-body">
+                    <h3>Dinuguan</h3>
+                    <p class="description">Our "all-time favorite" savory stew. Thick, dark, and perfectly seasoned—best
+                        paired with rice or pancit!</p>
+                    <div class="rating">⭐⭐⭐⭐⭐ <span>(4.8)</span></div>
+                </div>
+            </div>
+            <div class="food-card">
+                <div class="card-img-placeholder">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAlikc3SichpJjTpNUFvoHyW8si4xFZb_QPg&s"
+                        alt="Dinuguan" class="food-image">
+                </div>
+                <div class="card-body">
+                    <h3>Beef Steek (Bistek)</h3>
+                    <p class="description">Tender beef slices marinated in soy sauce and calamansi, topped with a
+                        generous serving of sweet onions.</p>
+                    <div class="rating">⭐⭐⭐⭐⭐ <span>(4.6)</span></div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <div class="full-video-container">
+        <video src="./css/ADVERTISEMENT.mp4" class="ad-video" autoplay muted playsinline loop></video>
+    </div>
+    </section>
+    <section class="reviews-section">
+        <div class="section-container">
+            <h2>Reviews</h2>
+
+            <div class="reviews-wrapper">
+                <div class="reviews-grid">
+                    <div class="review-box">
+                        <div class="review-header">
+                            <div class="reviewer">
+                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjWcmceujQ0bBnxNUmMCKkvkTOfcPoI_OG0ar7xvUNngt4niLKk=s48-p"
+                                    alt="Shaira" class="reviewer-img">
+                                <p><strong>Shaira Mag-Waling</strong></p>
+                                <p>April 10, 2026</p>
+                            </div>
+                            <div class="stars">★★★★☆</div>
+                        </div>
+                        <p>"User-friendly ang website ni Flor's, kita mo agad yung 'Everyday Available' menu kaya hindi
+                            nakakalito."</p>
+                    </div>
+
+                    <div class="review-box">
+                        <div class="review-header">
+                            <div class="reviewer">
+                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjXZ7_3HxxwMQNWSEXcTONIu8kNl0ovmmuBfmxqNFfn5nN0JRfM=s48-p"
+                                    alt="Shaine" class="reviewer-img">
+                                <p><strong>Shaine Concepcion</strong></p>
+                                <p>April 15, 2026</p>
+                            </div>
+                            <div class="stars">★★★★☆</div>
+                        </div>
+                        <p>"First time ko mag-order sa website at ang bilis ng process. Ang linis din tingnan ng menu."
+                        </p>
+                    </div>
+
+                    <div class="review-box">
+                        <div class="review-header">
+                            <div class="reviewer">
+                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjXbtDI3ZayzCxPnEyiB8zDIyfrj3LWtI5Gumvb-tnItjH5u1wk=s48-p"
+                                    alt="Jacky" class="reviewer-img">
+                                <p><strong>Jacky Chen</strong></p>
+                                <p>April 27, 2026</p>
+                            </div>
+                            <div class="stars">★★★★☆</div>
+                        </div>
+                        <p>"Grabe yung Binagoongang Baboy niyo nung Thursday, saktong-sakto ang timpla!"</p>
+                    </div>
+
+                    <div class="review-box">
+                        <div class="review-header">
+                            <div class="reviewer">
+                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjXYs64u7SlG_52S9hJISaqHu3AD7XBPqNvgG07_Jt1VYVMCYdjp=s48-p"
+                                    alt="Jhun" class="reviewer-img">
+                                <p><strong>Jhun Pelayo</strong></p>
+                                <p>April 06, 2026</p>
+                            </div>
+                            <div class="stars">★★★★☆</div>
+                        </div>
+                        <p>"Sobrang bait ng mga staff dito. Ramdam mo yung init ng pagtanggap."</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="rating-pill"></div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-box">
+                <div class="footer-logo">
+                    <img src="./css/LOGO(2).png" alt="Flor's Canteen Logo">
+                    <span class="footer-logo-text">Flor's Canteen</span>
+                </div>
+                <p class="brand-desc">Serving home-cooked Filipino favorites since 2000. Quality taste in every bite.
+                </p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook">
+                        <img src="./picture/facebook-logo.png" alt="Facebook" class="social-icon-img">
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <img src="./picture/instagram-logo.png" alt="Instagram" class="social-icon-img">
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <img src="./picture/house.png" class="image-to-white"> Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="MenuGeneralView.html">
+                            <img src="./picture/bowl-food.png" alt="Menu" class="image-to-white"> Menu
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Order.html">
+                            <img src="./picture/list.png" alt="Order" class="image-to-white"> Order
+                        </a>
+                    </li>
+                    <li>
+                        <a href="AboutUs.html">
+                            <img src="./picture/info.png" alt="About" class="image-to-white"> About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="ContactUs.html">
+                            <img src="./picture/phone.png" alt="Contact" class="image-to-white"> Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <h3>Contact Us</h3>
+                <div class="contact-item">
+                    <img src="./picture/map-trifold.png" alt="Location" class="image-to-white">
+                    <p>1165 Morong St. Tondo, Manila</p>
+                </div>
+                <div class="contact-item">
+                    <img src="./picture/phone-call.png" alt="Phone" class="image-to-white">
+                    <p>+123 456 789</p>
+                </div>
+                <div class="contact-item">
+                    <img src="./picture/envelope.png" alt="Email" class="image-to-white">
+                    <p>sarmientoflordeliza125@gg</p>
+                </div>
+            </div>
+
+            <div class="footer-box">
+                <h3>Operating Hours</h3>
+                <div class="hour-pill"><span>Monday - Friday</span><span>7am - 5pm</span></div>
+                <div class="hour-pill"><span>Saturday</span><span>7am - 4pm</span></div>
+                <div class="hour-pill"><span>Sunday</span><span>Closed</span></div>
+            </div>
+
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2026 Flor's Canteen. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./js/theme.js"></script>
+</body>
+
+</html>
